@@ -1,3 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&family=Tiny5&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
 * {
-    padding:0;
+    margin: 0;
+    font-weight: bold;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
 }
+
+
+body {
+    min-height: 100vh;
+    background-color: #679186;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: #264e70;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100; 
+} 
+
+.logo {
+        font-size: 28px;
+        color: #acd3f5;
+        text-align: center;
+        margin-left: -80px;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+.logo:hover {
+    color: #fff;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: #c6e0f7;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 2px;
+    margin-left: 20px;
+    transition: .2s;
+}
+
+.navbar a:hover {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+        'wght' 800,
+        'GRAD' 0,
+    'opsz' 24
+  }
+
+.material-symbols-outlined {
+    position: relative;
+    top: 5px;   
+    transition: 0.2s;
+}
+
+
+.material-symbols-outlined:hover{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.introduction {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+
